@@ -1,0 +1,1114 @@
+[
+    {
+        "timestamp": "2025-11-08T10:50:55.889779",
+        "agent": "Normalizer",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:50:55.895935",
+        "agent": "PatternWatcher",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:50:55.910749",
+        "agent": "CausalReasoning",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:50:55.923194",
+        "agent": "ImpactForecast",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:52:52.506853",
+        "agent": "Normalizer",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:52:52.517181",
+        "agent": "PatternWatcher",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:52:52.525030",
+        "agent": "CausalReasoning",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:52:52.532618",
+        "agent": "ImpactForecast",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:52:52.543314",
+        "agent": "RiskSeverity",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:53:37.682256",
+        "agent": "Normalizer",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:53:37.693127",
+        "agent": "PatternWatcher",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:53:37.704133",
+        "agent": "CausalReasoning",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:53:37.715170",
+        "agent": "ImpactForecast",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:53:37.727821",
+        "agent": "RiskSeverity",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T10:53:37.738538",
+        "agent": "CFOAlert",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            },
+            "alert": {
+                "metric": "DSO",
+                "summary": "\ud83d\udea8 Early Risk Alert: DSO deviation detected (0.0%). Cause: Financial behavior remains consistent with historical norms.. Expected impact \u2248 \u20b90 within 0 days. Severity: Low (Score: 0.0).",
+                "severity": "Low",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:45:17.180818",
+        "agent": "Normalizer",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:45:17.207215",
+        "agent": "PatternWatcher",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:45:17.224539",
+        "agent": "CausalReasoning",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:45:17.248276",
+        "agent": "ImpactForecast",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:45:17.276164",
+        "agent": "RiskSeverity",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:45:17.302443",
+        "agent": "CFOAlert",
+        "data": {
+            "records": [
+                {
+                    "invoice_id": "I001",
+                    "issue_date": "2025-09-01T00:00:00",
+                    "paid_date": "2025-09-30T00:00:00",
+                    "amount": 10000.0,
+                    "dso": 29
+                },
+                {
+                    "invoice_id": "I002",
+                    "issue_date": "2025-09-05T00:00:00",
+                    "paid_date": "2025-10-20T00:00:00",
+                    "amount": 12000.0,
+                    "dso": 45
+                }
+            ],
+            "pattern": {
+                "metric": "DSO",
+                "current_value": 37.0,
+                "baseline_value": 37.0,
+                "deviation_percent": 0.0,
+                "status": "normal",
+                "confidence": 0.7,
+                "notes": "Avg DSO 37.0 days (baseline 37.0) \u2192 deviation 0.0%"
+            },
+            "cause": {
+                "explanation": "Financial behavior remains consistent with historical norms.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            },
+            "alert": {
+                "metric": "DSO",
+                "summary": "\ud83d\udea8 Early Risk Alert: DSO deviation detected (0.0%). Cause: Financial behavior remains consistent with historical norms.. Expected impact \u2248 \u20b90 within 0 days. Severity: Low (Score: 0.0).",
+                "severity": "Low",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:47:09.312533",
+        "agent": "Normalizer",
+        "data": {
+            "records": [],
+            "notes": "No records provided"
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:47:09.329335",
+        "agent": "PatternWatcher",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:47:09.354109",
+        "agent": "CausalReasoning",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:47:09.380969",
+        "agent": "ImpactForecast",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:47:09.397508",
+        "agent": "RiskSeverity",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T11:47:09.412066",
+        "agent": "CFOAlert",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            },
+            "alert": {
+                "metric": "Unknown Metric",
+                "summary": "\ud83d\udea8 Early Risk Alert: Unknown Metric deviation detected (0.0%). Cause: No clear cause detected.. Expected impact \u2248 \u20b90 within 0 days. Severity: Low (Score: 0.0).",
+                "severity": "Low",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:02:59.846510",
+        "agent": "Normalizer",
+        "data": {
+            "records": [],
+            "notes": "No records provided"
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:02:59.863292",
+        "agent": "PatternWatcher",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:02:59.875350",
+        "agent": "CausalReasoning",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:02:59.886372",
+        "agent": "ImpactForecast",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:02:59.897190",
+        "agent": "RiskSeverity",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:02:59.906934",
+        "agent": "CFOAlert",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            },
+            "alert": {
+                "metric": "Unknown Metric",
+                "summary": "\ud83d\udea8 Early Risk Alert: Unknown Metric deviation detected (0.0%). Cause: No clear cause detected.. Expected impact \u2248 \u20b90 within 0 days. Severity: Low (Score: 0.0).",
+                "severity": "Low",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:06:27.383044",
+        "agent": "Normalizer",
+        "data": {
+            "records": [],
+            "notes": "No records provided"
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:06:27.397097",
+        "agent": "PatternWatcher",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:06:27.406315",
+        "agent": "CausalReasoning",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:06:27.416361",
+        "agent": "ImpactForecast",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:06:27.425785",
+        "agent": "RiskSeverity",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-11-08T12:06:27.435080",
+        "agent": "CFOAlert",
+        "data": {
+            "records": [],
+            "notes": "No records provided",
+            "pattern": {
+                "status": "no_data",
+                "notes": "No records received"
+            },
+            "cause": {
+                "explanation": "No clear cause detected.",
+                "confidence": 0.6
+            },
+            "impact": {
+                "type": "none",
+                "estimated_amount": 0.0,
+                "timeline_days": 0,
+                "probability": 0.5
+            },
+            "severity": {
+                "score": 0.0,
+                "level": "Low",
+                "notes": "Deviation=0.0%, Impact\u2248\u20b90.0L, Probability=0.5"
+            },
+            "alert": {
+                "metric": "Unknown Metric",
+                "summary": "\ud83d\udea8 Early Risk Alert: Unknown Metric deviation detected (0.0%). Cause: No clear cause detected.. Expected impact \u2248 \u20b90 within 0 days. Severity: Low (Score: 0.0).",
+                "severity": "Low",
+                "score": 0.0
+            }
+        }
+    }
+]
