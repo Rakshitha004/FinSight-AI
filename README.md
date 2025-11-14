@@ -1,18 +1,31 @@
-﻿FinSight-AI : AI-powered financial pattern detection system that identifies anomalies in DSO (Days Sales Outstanding), forecasts potential impacts, and generates CFO-level alerts.
-🚧 Project Status: In Progress
-FinSight-AI is an ongoing project currently under active development.
-Core backend features, multi-agent pipeline, and API integrations are functional.
-Work is now progressing on:
-Improving individual agent reasoning
-Enhancing accuracy of financial anomaly detection
+🚀 FinSight-AI
+AI-powered financial pattern detection system that analyzes DSO (Days Sales Outstanding), identifies anomalies, forecasts impact, and generates CFO-level alerts.
+🏗️ Project Status: In Progress
+
+FinSight-AI is under active development. Currently working on:
+
+Improving agent-level reasoning
+
+Enhancing accuracy of anomaly detection
+
 Adding dashboards & UI for CFO alerts
-Building n8n integrations for automation workflows
-Deployment planning (Render / Railway / Docker)
-“Current Working Agents”
-🤖 Current Agents (Implemented & Working)
-Pattern Watcher Agent — detects DSO deviations
-Causal Reasoning Agent — explains root causes
-Impact Forecast Agent — estimates financial scale
-Risk Severity Agent — calculates risk score
-CFO Alert Agent — generates summary alert for CFOs
-All agents are currently connected in a chain and returning valid output through the API.
+
+Building n8n automation workflows
+
+Deployment setup (Render / Railway / Docker)
+🤖 Current Working Agents
+
+These agents are fully implemented and running in the backend:
+
+Pattern Watcher Agent → Detects DSO deviation
+
+Causal Reasoning Agent → Explains the possible root cause
+
+Impact Forecast Agent → Estimates financial impact (amount + timeline)
+
+Risk Severity Agent → Calculates risk score + severity level
+
+CFO Alert Agent → Generates final summary alert for CFOs
+
+All agents are connected in a chain and produce combined output via /api/ingest.
+
